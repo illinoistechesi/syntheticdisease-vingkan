@@ -40,6 +40,8 @@ Day,Energy,Bacteria,Description
 12,290,58,Day 12: Failed to release toxin.
 13,-58,56,Day 13: Infection died out.
 ```
+Now that you're set up, change the file name of your disease from `YourDisease.java` to something more interesting. Change the class name in the `SimulatedHost.java` file as well. Then, make sure it runs as before and save your changes.
+
 ## Saving Changes
 To save your changes in GitHub, run the commands below in your command line. First, add all your changes: (`-A` means all)
 ```
@@ -73,6 +75,7 @@ API stands for application programming interface, it defines what these programs
 
 ### Disease
 To create a new disease, write a new class that extends the abstract DiseaseBlueprint class. Some examples are already in the project for you to refer to. Change the class name and returned name property for your disease. For now, ignore the infectivity, toxigencity, and resistance methods and focus only on developing a new move method.
+
 #### Move Method
 This method defines your disease's behavior once it has infected a host. Each day the disease is alive in the simulation, this function will run.
 - Params: `SimulatedHost host`, the host that has been infected
