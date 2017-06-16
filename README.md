@@ -3,8 +3,8 @@ Imagine you are a senior public health researcher in an alternate universe where
 Your task is to extend the Disease Blueprint framework (an abstract Java class) to synthesize a new disease strain for testing purposes. This synthetic disease will be used in lab trials to test junior researchers' skills in programming, analysis, and public health.
 
 ## Learning Objectives
-- Develop a disease that shows off Java concepts
-- Reflect on your design process by maintaining a journal
+- Develop a disease that shows off Java concepts.
+- Reflect on your design process by maintaining a journal.
 
 ## Tools
 - **Cloud9**: an online development environment that allows you to develop, compile, an execute Java programs without installing Java locally.
