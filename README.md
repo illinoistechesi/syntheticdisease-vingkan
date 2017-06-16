@@ -12,7 +12,7 @@ Your task is to extend the Disease Blueprint framework (an abstract Java class) 
 - **Google Docs**: an online tool for storing and editing files. Use documents to keep track of your journaling and sheets to store and graph data from your simulations.
 
 ## Getting Started
-Accept your invitation to the Cloud9 education platform. This will allow you to create a Cloud9 account without entering any payment information. Select the "Clone workspace" tab and choose the workspace called `defaultjava`. This will ensure that you have Java configured on your workspace in Cloud9.
+Accept your invitation to the Cloud9 education platform. This will allow you to create a Cloud9 account without entering any payment information. Open Cloud9 and create a new workspace, selecting our class as the team. Select the "Clone workspace" tab and choose the workspace called `defaultjava`. This will ensure that you have Java configured on your workspace in Cloud9.
 
 Next, copy the files for this exercise to your Cloud9 workspace by clicking the green "Clone or download" button on your personal repository. Copy the link and then go to your command line (or "terminal") in Cloud9 and run:
 
