@@ -1,9 +1,9 @@
 
-class YourDisease extends DiseaseBlueprint {
+class VespinDisease extends DiseaseBlueprint {
     
     @Override
     public String getName() {
-        return "Your Disease";
+        return "Vespin Disease";
     }
     
     @Override
@@ -24,6 +24,9 @@ class YourDisease extends DiseaseBlueprint {
     @Override
     public DiseaseAction move(SimulatedHost host) {
         DiseaseAction action = DiseaseAction.MULTIPLY;
+        if(host.isIncubated()){
+            action = DiseaseAction.RELEASE;
+        }
         return action;
     }
     
