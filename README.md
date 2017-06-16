@@ -65,6 +65,16 @@ git push
 ```
 You will enter your username and password to the prompts to complete the push.
 
+## Graphing
+
+There is a Google sheets template that allows you to easily graph simulation results. [Copy the template at this link.](https://docs.google.com/spreadsheets/d/1GwgjTrNvR_vjGw3Zn--a5U80B0B18dEmUmb8mjrWQQk/copy) To visualize simulation results, follow these steps:
+- Clear column O in the Google sheet.
+- Copy the simulation output from your Cloud9 terminal.
+- Paste the simulation output into column 0.
+- Drag the SPLIT function in column A down until it captures all of the simulation output.
+- Enjoy the graphs in spreadsheet form!
+- Duplicate the sheet when you want to create new logs.
+
 ## Journaling
 Keep your journal of work on this assignment in a Google Doc. It is up to you how to structure this. Before you start this activity, write a response to this question:
 
