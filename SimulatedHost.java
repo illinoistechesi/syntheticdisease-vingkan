@@ -32,7 +32,7 @@ public class SimulatedHost {
     }
     
     private int day;
-    private int MAX_DAYS = 5000;
+    private int MAX_DAYS = 50;
     
     private int energy;
     private int INITIAL_ENERGY;
